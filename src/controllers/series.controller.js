@@ -7,7 +7,7 @@ export const createSeries = (req, res) => {
 
     const dadoFormatado = new Serie(
 		newSerie.id,
-		newSerie.titulo,
+		newSerie.nome,
 		newSerie.genero,
 		newSerie.temporadas
 	);
