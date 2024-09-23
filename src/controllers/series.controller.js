@@ -1,5 +1,5 @@
 import { Serie } from "../models/series.model.js";
-import { series } from "../database/series.database.js";
+import { series } from "../database/series. database.js";
 
 export const createSeries = (req, res) => {
 
