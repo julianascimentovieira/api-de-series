@@ -12,7 +12,7 @@ export const createSeries = (req, res) => {
 		newSerie.temporadas
 	);
 
-    series.push(dadoFormatado);
+    series.post(dadoFormatado);
 
 	res.status(201).send(`A série foi criada com sucesso!`);
 };
