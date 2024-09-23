@@ -1,7 +1,7 @@
 export class Serie {
-	constructor(id, titulo, genero, temporadas) {
+	constructor(id, name, genero, temporadas) {
 		this.id = id;
-		this.titulo = titulo;
+		this.name= name;
 		this.genero = genero;
 		this.temporadas = temporadas;
 	}
